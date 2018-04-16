@@ -1,0 +1,13 @@
+node_modules
+
+# Most files should be .ts
+*.mjs
+*.js
+
+.DS_Store
+
+npm-debug.log*
+yarn-error.log*
+
+# Exceptions
+!jest-puppeteer.config.js

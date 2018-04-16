@@ -1,0 +1,36 @@
+{
+  "name": "universal-read-file",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "detrohutt@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/jest-environment-puppeteer": "^2.2.0",
+    "@types/node": "^9.6.5",
+    "@types/puppeteer": "^1.2.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-jest": "^21.15.0",
+    "husky": "^1.0.0-rc.1",
+    "jest": "^22.4.3",
+    "jest-puppeteer": "^2.3.0",
+    "lint-staged": "^7.0.4",
+    "prettier": "^1.12.0",
+    "puppeteer": "^1.3.0",
+    "ts-jest": "^22.4.3",
+    "typescript": "^2.8.1",
+    "typescript-eslint-parser": "^14.0.0"
+  },
+  "jest": {
+    "preset": "jest-puppeteer",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+  }
+}
