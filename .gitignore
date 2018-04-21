@@ -1,13 +1,12 @@
 node_modules
+dist
+*.log*
 
 # Most files should be .ts
 *.mjs
 *.js
 
-.DS_Store
-
-npm-debug.log*
-yarn-error.log*
-
 # Exceptions
 !jest-puppeteer.config.js
+!rollup.config.js
+!module.mjs
