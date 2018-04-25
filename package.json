@@ -2,6 +2,7 @@
   "name": "universal-fs",
   "version": "1.0.0-alpha.0",
   "main": "dist/index",
+  "types": "dist/index.d.ts",
   "author": "detrohutt@gmail.com",
   "license": "MIT",
   "private": false,
@@ -13,7 +14,7 @@
     "bundle": "rollup -c",
     "build": "run-s clean compile bundle",
     "prep:test": "cp dist/index.mjs __fixtures__/server/",
-    "jest": "jest --no-cache",
+    "jest": "jest",
     "test": "run-s build prep:test jest"
   },
   "devDependencies": {
